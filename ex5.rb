@@ -14,5 +14,5 @@ puts "He's got %s eyes and %s hair." % [my_eyes, my_hair]
 puts "His teeth are usually %s depending on the cigarret." % my_teeth
 
 # this line is tricky, try to get it exactly right
-puts "If i add #{my_age}, #{my_height}, and #{my_weight} I get %d." 
-% [my_age + my_height + my_weight]
+as=my_age+my_height+my_weight
+puts "If i add #{my_age}, #{my_height}, and #{my_weight} I get %d." % as

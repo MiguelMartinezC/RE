@@ -22,14 +22,14 @@ def string()
 end
 
 puts "Dame el primer valor de la suma"
-s1 = STDIN.gets.chomp()
+s1 = gets.chomp.to_i
 puts "Dame el segundo valor de la suma"
-s2 = STDIN.gets.chomp()
+s2 = gets.chomp.to_i
 puts suma(s1, s2)
 puts "Dame el primer valor de la resta"
-r1 = STDIN.gets.chomp()
+r1 = gets.chomp.to_i
 puts "Dame el segundo valor de la resta"
-r2 = STDIN.gets.chomp()
+r2 = gets.chomp.to_i
 puts resta(r1, r2)
 puts "Cual es tu nombre"
 name = STDIN.gets.chomp()
